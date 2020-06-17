@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>VinFast-Dang ky lai thu-Phuc Vu</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+		crossorigin="anonymous">
+
+		<!-- Liên kết css của bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- Css của mình -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<section id="menu-bar">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="brand" style="margin: 0; float: none; text-align:center" href="#"><img src="img/logo.png" /></a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse navbar-ex1-collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="about.html" title="VỀ CHÚNG TÔI" class="text-uppercase">Về chúng tôi</a></li>
+							<li><a href="product.html" title="SẢN PHẨM" class="text-uppercase">Sản phẩm</a></li>
+							
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="new.html" title="TIN TỨC" class="text-uppercase">Tin tức</a></li>
+							<li><a href="contact.html" title="LIÊN HỆ" class="text-uppercase">Liên hệ</a></li>
+							<li>
+								<div class="dropdown">
+									<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="fa fa-search" aria-hidden="true"></i></button>
+									<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+										<li>
+											<a href="#" title="Search">
+												<form class="navbar-form navbar-left" role="search">
+													<div class="form-group">
+														<input type="text" class="form-control" placeholder="Search">
+													</div>
+													<button type="button" class="btn btn-danger">Tìm kiếm</button>
+												</form>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<div>
+									<a style="line-height: 110px" class="border-modal" onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><i class="fa fa-user" aria-hidden="true"></i></a>
+
+									<div id="id01" class="modal">
+
+										<form class="modal-content animate" action="/action_page.php" method="post">
+											<div class="imgcontainer">
+												<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+												<h4>LOGIN</h4>
+											</div>
+
+											<div class="container1">
+												<label for="uname"><b>Username</b></label>
+												<input type="text" placeholder="Enter Username" name="uname" required>
+
+												<label for="psw"><b>Password</b></label>
+												<input type="password" placeholder="Enter Password" name="psw" required>
+
+												<button type="submit">Login</button>
+												<label>
+													<input type="checkbox" checked="checked" name="remember"> Remember me
+												</label>
+											</div>
+
+											<div class="container1" style="background-color:#f1f1f1">
+												<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+												<span class="psw">Forgot <a href="#">password?</a></span>
+											</div>
+										</form>
+								</div>
+							</li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div>
+			</nav>
+		</section>
+		<section id="banner">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="img/banner.jpg" alt="...">
+						<div class="carousel-caption">
+							<div class="container">
+								<div class="carousel-caption">
+									<p><a class="btn btn-lg btn-danger" href="subscribe.html" role="button">ĐĂNG KÝ LÁI THỬ</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/banner1.jpg" alt="...">
+						<div class="carousel-caption">
+							<div class="container">
+								<div class="carousel-caption">
+									<p><a class="btn btn-lg btn-danger" href="subscribe.html" role="button">ĐĂNG KÝ LÁI THỬ</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/banner2.jpg" alt="...">
+						<div class="carousel-caption">
+							<div class="container">
+								<div class="carousel-caption">
+									<p><a class="btn btn-lg btn-danger" href="subscribe.html" role="button">ĐĂNG KÝ LÁI THỬ</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Controls -->
+				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</section>
+		<section id="sub">
+			<div class="conatiner">
+				<h1 class="text-center text-uppercase">VinFast hướng tới tương lai</h1>
+				<p class="text-center">
+					Là một doanh nghiệp Việt Nam với tầm nhìn toàn cầu, VinFast tự hào cho ra mắt những mẫu xe đầu tiên trong bộ sưu tập 
+					GlobalCar (Ô tô toàn cầu) của mình. Đối với VinFast, Vingroup đã tạo ra một thương hiệu ô tô mà người Việt Nam có thể tự 
+					hào. VinFast đáp ứng được những yêu cầu của người lái xe trong nước, cũng như giải quyết nhu cầu của thị trường nội địa 
+					đang gia tăng, tại một trong số những nền kinh tế tăng trưởng nhanh nhất Đông Nam Á. Nhưng VinFast cũng là một hãng 
+					xe tân tiến trên thị trường thế giới, một công ty sẵn sàng chọn hướng tiếp cận chưa từng có để tạo ra những điều tuyệt vời. 
+					Bằng cách mang tới thị trường những mẫu xe đẳng cấp trong ngành công nghiệp ô tô toàn cầu.
+				</p>
+			</div>
+		</section>
+		<section id="form-sub">
+			<div class="container">
+                <h1 class="text-center text-uppercase">Đăng ký lái thử</h1>
+                <h4 class="text-center text-uppercase">Loại xe quan tâm</h4>
+                <div class="form-car">
+                	<div class="row">
+                		<div class="col-md-4">
+                			<a href="#"><img src="img/button1.png" class="img-responsive" alt="Image"></a>
+                		</div>
+                		<div class="col-md-4">
+                			<a href="#"><img src="img/button2.png" class="img-responsive" alt="Image"></a>
+                		</div>
+                		<div class="col-md-4">
+                			<a href="#"><img src="img/button3.png" class="img-responsive" alt="Image"></a>
+                		</div>
+                	</div>
+                </div>
+                <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Họ tên <span>*</span></label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="">
+                        </div>
+                        <div class="q form-group">
+                            <label for="exampleInputEmail1">Tỉnh/Thành phố <span>*</span></label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="">
+                        </div>
+                        <div class="qq form-group">
+                            <label for="exampleInputEmail1">Quận/Huyện <span>*</span></label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Địa chỉ</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="">
+                        </div>                         
+                        <div class="q form-group">
+                            <label for="exampleInputEmail1">Số điện thoại <span>*</span></label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="">
+                        </div>
+                        <div class="qq form-group">
+                            <label for="exampleInputEmail1">Email <span>*</span></label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="">
+                        </div>
+                        <div class="qqq form-group">
+                            <label for="exampleInputEmail1">Ghi chú <span>*</span></label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="">
+                        </div>
+                        <button type="submit" class="btn btn-default text-uppercase">Đăng ký</button>
+                </form>
+            </div>
+		</section>
+		<section id="subscribe">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5"><h4 class="text-uppercase">Đăng ký nhận thông báo ngay!</h4></div>
+					<div class="col-md-7">
+						<form class="navbar-form navbar-left" role="search">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Search">
+							</div>
+							<button type="submit" class="btn btn-default">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>>
+		</section>
+		<section id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2">
+						<h4>TẬP ĐOÀN VINFAST</h4>
+						<hr>
+						<ul>
+							<li><a href="about.html">Về chúng tôi</a></li>	
+							<li><a href="product.html">Sản phẩm</a></li>
+							<li><a href="contact.html">Gửi liên hệ về VinFast</a></li>
+						</ul>			
+					</div>
+					<div class="col-md-2">
+						<h4>CONTACT</h4>
+						<hr>
+						<ul>
+							<li><a href="#">Hotline: (1900-232389)</a></li>	
+							<li><a href="#">Gmail: (cskh@vinfast.vn)</a></li>
+						</ul>			
+					</div>
+					<div class="col-md-2">
+						<h4>XE HƠI VINFAST</h4>
+						<hr>
+						<ul>
+							<li><a href="product.html">Dòng xe Lux A2.0</a></li>	
+							<li><a href="product.html">Dòng xe Lux SA2.0</a></li>
+						</ul>		
+					</div>
+					<div class="col-md-2">
+						<h4>TIN TỨC</h4>
+						<hr>
+						<ul>
+							<li><a href="new.html">Giá xe VinFast</a></li>	
+							<li><a href="new.html">Khánh thành nhà máy</a></li>
+							<li><a href="new.html">Xu hướng nội thất ô tô</a></li>
+						</ul>	
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li class="icon"><a href="#" title="Facebook"><img src="img/icon1.png" class="img-responsive" alt="Image"></a></li>	
+							<li class="icon"><a href="#" title="Youtube"><img src="img/icon2.png" class="img-responsive" alt="Image"></a></li>
+							<li class="icon"><a href="#" title="Instagram"><img src="img/icon3.png" class="img-responsive" alt="Image"></a></li>
+							<li class="icon"><a href="#" title="Twitter"><img src="img/icon4.png" class="img-responsive" alt="Image"></a></li>
+						</ul>						
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="no-copy">
+			<p class="text-center">VinFast. All rights reserved.© Copyright 2020 - Design by Phuc Vu</p>
+		</section>
+
+
+
+
+		<!-- Liên kết js tổng -->
+		<script src="js/jquery.min.js"></script>
+		<!-- Liên kết js của bootstrap -->
+		<script src="js/bootstrap.min.js"></script>	
+	</body>
+</html>
